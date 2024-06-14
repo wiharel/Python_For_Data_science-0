@@ -1,6 +1,6 @@
 
 def all_thing_is_obj(object: any) -> int:
-    type_names ={
+    type_names = {
         list: "List",
         tuple: "Tuple",
         set: "Set",
@@ -17,7 +17,4 @@ def all_thing_is_obj(object: any) -> int:
         print(f"{type_names} : {object_type}")
     else:
         print(f"{type_names}")
-    
     return 42
-
-

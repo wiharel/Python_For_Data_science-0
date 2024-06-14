@@ -1,7 +1,8 @@
 import math
 
+
 def NULL_not_found(object: any) -> int:
-    type_names ={
+    type_names = {
         None: "Nothing",
         math.nan: "Cheese",
         '0': "Zero",
@@ -28,8 +29,6 @@ def NULL_not_found(object: any) -> int:
         print(f"Fake: {object} {type(object)} ")
     else:
         print("Type not found")
-    
     if i == 1:
         return 1
     return 0
-    
